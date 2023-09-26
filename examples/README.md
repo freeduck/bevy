@@ -497,6 +497,8 @@ Example | File | Description
 
 ```sh
 rustup target add wasm32-unknown-unknown
+# On deb based systems execute the following command before installing wasm-bindgen
+apt install libssl-dev
 cargo install wasm-bindgen-cli
 ```
 
