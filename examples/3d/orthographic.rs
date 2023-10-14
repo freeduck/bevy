@@ -37,7 +37,7 @@ fn setup(
     commands.spawn(PbrBundle{
         mesh: meshes.add(shape::Plane::from_size(1.).into()),
         material: materials.add(Color::rgb(1., 0.9, 0.9).into()),
-        transform: Transform::from_xyz(1.5, 0.5, 1.5),
+        transform: Transform::from_xyz(0., 0., 0.),
         ..default()
     });
     //commands.spawn(PbrBundle {
